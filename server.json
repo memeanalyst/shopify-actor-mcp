@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.memeanalyst/shopify-actor-mcp",
+  "title": "Shopify Store Scraper \u2014 E-commerce Migration Leads",
+  "description": "Find e-commerce sites ready to migrate to Shopify, scored leads, by Magnova",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/memeanalyst/shopify-actor-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/Shopify-Actor"
+    }
+  ]
+}

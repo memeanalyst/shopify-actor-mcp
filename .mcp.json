@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "shopify-actor": {
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/Shopify-Actor"
+    }
+  }
+}
